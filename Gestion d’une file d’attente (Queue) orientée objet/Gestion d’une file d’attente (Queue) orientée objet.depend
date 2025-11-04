@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1762252873 source:c:\users\pc\documents\3 eme annee\c++\tp15c++\gestion d’une file d’attente (queue) orientée objet\main.cpp
+	<iostream>
+	<stdexcept>
+
