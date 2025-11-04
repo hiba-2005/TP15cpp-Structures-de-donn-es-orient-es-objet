@@ -7,6 +7,7 @@ Cours : Programmation Orientée Objet — C++
 - Utiliser des modèles (templates) pour la généricité.
 
 ---
+````
 TP15c++/
 ├─ Liste chaînée personnalisée/
 │ └─ main.cpp
@@ -18,7 +19,7 @@ TP15c++/
 │ └─ main.cpp
 ├─ image
 └─ README.md
-
+```` 
 ## Exercice 1 — Liste chaînée personnalisée
 ### Spécifications
 - `struct Noeud { int valeur; Noeud* suivant; };`
@@ -108,8 +109,5 @@ TP15c++/
 ## Compilation (exemples)
 Avec g++ :
 ```bash
-# C++17 recommandé pour ces exercices
-g++ -std=c++17 -O2 -Wall Ex1_ListeChainee/main.cpp -o ex1
-g++ -std=c++17 -O2 -Wall Ex2_File_FIFO/main.cpp     -o ex2
-g++ -std=c++17 -O2 -Wall Ex3_TableHachage/main.cpp  -o ex3
-g++ -std=c++17 -O2 -Wall Ex4_Pile_Template/main.cpp -o ex4
+g++ -std=c++17 -O2 -Wall Liste chaînée personnalisée/main.cpp -o 
+
